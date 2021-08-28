@@ -11,7 +11,7 @@
             "type": "pwa-chrome",
             "request": "launch",
             "name": "About Ryne Dalrymple",
-            "url": "https://daly995.github.io/myappsample/",
+            "url": "https://daly995.github.io/My-Webpage/",
             "webRoot": "${workspaceFolder}"
         }
     ]
