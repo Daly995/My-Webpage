@@ -1,8 +1,43 @@
 <!DOCTYPE html>
+<!-- EXAMPLE CODE HEADER/DISCLAIMER
+ 
+Project:  Project1-About Me
+Name: Ryne Dalrymple
+Submitted: 8/29/21
+ 
+I declare that the following source code was written by me, or provided
+by the instructor for this project. I understand that copying source
+code from any other source, providing source code to another student, 
+or leaving my code on a public web site constitutes cheating.
+I acknowledge that  If I am found in violation of this policy this may result
+in a zero grade, a permanent record on file and possibly immediate failure of the class.
+ 
+Reflection (1-2 paragraphs):  It was a lot of fun to be able to make a webpage using all the different tags I
+needed to use. It's cool all the customization you're able to use to make your webpage not so bland. There is
+a lot more I could use on my webpage, but I'm just scratching the surface with the basic customizations.
+
+The biggest thing I had trouble with in the beginning was setting up quokka with the node.js being installed in
+the right place of my system, so that would be working for Project 2 coming up. Setting up the pages on github
+wasn't as hard, but it did take some time to make it perfect. I don't want to have to try and fix it at the end.
+The hardest thing on the actual project was making sure the schedule table was perfect and had no errors.
+ 
+-->
 <html>
-    <head>
-        <title>About Ryne Dalrymple</title>
+<!-- Project 1/2 Layout Starter Page -->
+<!-- WARNING-Please do not copy/paste any of this code.  You may utilize the concepts here 
+but I don't want to see a bunch of assignments with the exact layout, class names etc.  
+Type every line of code yourself!  Change the names, be creative, make the assignment your own!
+
+TRICK:  select all text in this file, 'Ctrl-A', then use 'Alt-Shift-f' to format your document with proper indents etc.
+-->
+
+<head>
+    <!--  This is the 'head' tag, DON'T confuse with 'header'.  This tag does not get rendered and
+	should not contain any of your page content.  It just includes CSS/JS and the 'title' displayed on the
+	browser tab-->
+    <title>About Ryne Dalrymple</title>
     <style>
+        /* place inline styles here-Project 2*/
         a {
             text-decoration: none;
         }
@@ -11,11 +46,18 @@
             text-decoration: underline;
         }
 
-        h1, h2, li, p, th, td {
+        h1,
+        h2,
+        li,
+        p,
+        th,
+        td {
             font-family: Verdana, Geneva, Tahoma, sans-serif;
         }
-        
-        table, th, td {
+
+        table,
+        th,
+        td {
             border: 1px solid black;
         }
 
@@ -23,14 +65,43 @@
             border-spacing: 3px;
         }
 
-        th, td {
+        th,
+        td {
             padding: 3px;
         }
     </style>
-    </head>
-    <body>
-        <h1>Ryne Dalrymple</h1>
+    <!-- Or, include your styles in a separate css file as follows (project 2): -->
+    <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+
+    <main>
+        <!--  I normally put header and footer outside of 'main', but in this
+		case when I'm centering it all, placing inside 'main' makes sense
+		-->
+        <header>
+            <h1>Ryne Dalrymple</h1>
+        </header>
+        <hr>
         <img src="Ryne Dalrymple.jpg" alt="Ryne Dalrymple photo" style="float:right;">
+
+        <!-- (Project2)When repeating your sections,  create a class for each one and style each section through that class -->
+        <!-- <section class='res-section'>
+			<h1>Skills</h1>
+			<ol>
+				<li>code</li>
+				<li>Photography</li>
+			</ol>
+		</section>
+
+		<section class='res-section'>
+			<h1>Experience</h1>
+			<ol>
+				<li>Lecturer-UVU</li>
+				<li>Consultant-Gumboot Consulting</li>
+			</ol>
+		</section> -->
 
         <h2>Personal Info</h2>
         <ul>
@@ -43,36 +114,49 @@
         <h2>My Five Favorite Books</h2>
         <ol>
             <li><i>Harry Potter</i>, <a href="https://www.jkrowling.com/" target="_blank">J.K. Rowling</a></li>
-            <li><i>Among the Hidden</i>, <a href="https://haddixbooks.com/" target="_blank">Margaret Peterson Haddix</a></li>
+            <li><i>Among the Hidden</i>, <a href="https://haddixbooks.com/" target="_blank">Margaret Peterson Haddix</a>
+            </li>
             <li><i>Fablehaven</i>, <a href="http://brandonmull.com/" target="_blank">Brandon Mull</a></li>
-            <li><i>Dragon Slayers' Academy</i>, <a href="https://www.katemcmullan.com/" target="_blank">Kate McMullan</a></li>
+            <li><i>Dragon Slayers' Academy</i>, <a href="https://www.katemcmullan.com/" target="_blank">Kate
+                    McMullan</a>
+            </li>
             <li><i>Artemis Fowl</i>, <a href="https://www.eoincolfer.com/" target="_blank">Eoin Colfer</a></li>
         </ol>
 
         <h2>Just Another Day At Work</h2>
-        
+
         <p>Long days at work from start to end:</p>
-        
-        <p style="text-align: center;"><i>Waking up at 2 <br> Eating breakfast, lunch by 10 <br> Leaving work by 2</i><br></p>
-        
-        <h2>My Personal Interests</h2>
-        
-        <p>I've always been interested in Video Games. Ever since I was 5 years old I've been playing on PC, Nintendo 64,<br> 
-            Super Nintendo, PS2, and all the newer ones going up to present. With friends, video games can be from casual<br> to competitive.
-            Playing Video Games really helped me become more social with school and sports. In my<br> whole life I probably won't ever give up on video games.
+
+        <p style="text-align: center;"><i>Waking up at 2 <br> Eating breakfast, lunch by 10 <br> Leaving work by
+                2</i><br>
         </p>
 
-        <p>Sports have always been interesting to me my whole life. It first started with baseball when I was younger<br>
+        <h2>My Personal Interests</h2>
+
+        <p>I've always been interested in Video Games. Ever since I was 5 years old I've been playing on PC, Nintendo
+            64,<br>
+            Super Nintendo, PS2, and all the newer ones going up to present. With friends, video games can be from
+            casual<br> to competitive.
+            Playing Video Games really helped me become more social with school and sports. In my<br> whole life I
+            probably
+            won't ever give up on video games.
+        </p>
+
+        <p>Sports have always been interesting to me my whole life. It first started with baseball when I was
+            younger<br>
             when I watched the Chicago Cubs on WGN. I was named after a hall of fame baseball player, Ryne<br> Sandberg
-            off the Chicago Cubs. There isn't a sport that I don't like. Football then basketball would<br> be my number 2
+            off the Chicago Cubs. There isn't a sport that I don't like. Football then basketball would<br> be my number
+            2
             and number 3. It's nice to have sports in different seasons, so I have something<br> to look forward every
             few months in the year.
         </p>
 
         <p>Another hobby of mine is watching Youtube. I've watch a lot of video ever since it first came out in<br>
             2005. This is one thing my girlfriend and I like to watch other than other TV shows on Netflix, Hulu,<br>
-            and etc. Youtube has come a long way with the good and the bad of course with the Youtubers.<br> If there is nothing on TV
-            that I think is good to watch at the time, I<br> can always know there are videos I can watch on Youtube.<br>
+            and etc. Youtube has come a long way with the good and the bad of course with the Youtubers.<br> If there is
+            nothing on TV
+            that I think is good to watch at the time, I<br> can always know there are videos I can watch on
+            Youtube.<br>
         </p>
 
         <h2>Class Schedule</h2>
@@ -203,5 +287,16 @@
                 <td>7:30</td>
             </tr>
         </table>
-    </body>
+        <!-- <footer>
+			<h1>Here is my footer</h1>
+		</footer> -->
+    </main>
+    <!-- (Project 2) include your javascript file here -->
+    <script src="app.js"></script>
+    <script type="text/javascript">
+	//Project 2- you can call javascript functions when page is loaded here.
+    //helloWorld();  //function contained in js/main.js file
+    </script>
+</body>
+
 </html>
