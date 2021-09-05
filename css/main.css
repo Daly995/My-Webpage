@@ -15,6 +15,11 @@ img {
     float: right;
 }
 
+p {
+    text-indent: 2pt;
+    margin-top: 12pt;
+}
+
 table,
 th,
 td {
