@@ -20,15 +20,14 @@ body {
     src: url(Anton-Regular.ttf);
     font-weight: bold;
     font-size: 30pt;
-    text-decoration: underline;
 }
 
 header {
     font-family: headerFont;
 }
 
-img {
-    float: right;
+header::after {
+    text-decoration: underline;
 }
 
 .name {
