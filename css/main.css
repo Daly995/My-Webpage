@@ -27,7 +27,7 @@ header {
 }
 
 header::after {
-    text-decoration: underline;
+    display: inline-block;
 }
 
 .name {
