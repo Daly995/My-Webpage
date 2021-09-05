@@ -20,7 +20,7 @@ body {
     src: url(Anton-Regular.ttf);
     font-weight: bold;
     font-size: 30pt;
-    display: inline-block;
+    display: block;
 }
 
 header {
