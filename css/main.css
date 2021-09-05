@@ -20,14 +20,11 @@ body {
     src: url(Anton-Regular.ttf);
     font-weight: bold;
     font-size: 30pt;
+    display: inline-block;
 }
 
 header {
     font-family: headerFont;
-}
-
-header::after {
-    display: inline-block;
 }
 
 .name {
