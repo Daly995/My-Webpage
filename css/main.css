@@ -19,6 +19,8 @@ body {
     font-family: headerFont;
     src: url(Anton-Regular.ttf);
     font-weight: bold;
+    font-size: 30pt;
+    text-decoration: underline;
 }
 
 header {
@@ -27,6 +29,10 @@ header {
 
 img {
     float: right;
+}
+
+.name {
+    background-image: linear-gradient(blue, red);
 }
 
 p {
