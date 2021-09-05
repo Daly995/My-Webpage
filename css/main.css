@@ -15,6 +15,16 @@ body {
     background-image: url("pexels-pixabay-531880.jpg");
 }
 
+@font-face {
+    font-family: headerFont;
+    src: url(Anton-Regular.ttf);
+    font-weight: bold;
+}
+
+header {
+    font-family: headerFont;
+}
+
 img {
     float: right;
 }
