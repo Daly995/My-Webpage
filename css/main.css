@@ -1,0 +1,32 @@
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-spacing: 3px;
+}
+
+th,
+td {
+    padding: 3px;
+}
+
+.Me {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: right;
+}
+
+.Personl {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Books {
+    text-decoration: none;
+}
+
+.Books:hover {
+    text-decoration: underline;
+}
+

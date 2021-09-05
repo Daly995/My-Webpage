@@ -36,40 +36,7 @@ TRICK:  select all text in this file, 'Ctrl-A', then use 'Alt-Shift-f' to format
 	should not contain any of your page content.  It just includes CSS/JS and the 'title' displayed on the
 	browser tab-->
     <title>About Ryne Dalrymple</title>
-    <style>
-        /* place inline styles here-Project 2*/
-        a {
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        h1,
-        h2,
-        li,
-        p,
-        th,
-        td {
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-        }
-
-        table,
-        th,
-        td {
-            border: 1px solid black;
-        }
-
-        table {
-            border-spacing: 3px;
-        }
-
-        th,
-        td {
-            padding: 3px;
-        }
-    </style>
+    <!-- place inline styles here-Project 2 -->
     <!-- Or, include your styles in a separate css file as follows (project 2): -->
     <link rel="stylesheet" href="css/main.css" />
 </head>
@@ -80,11 +47,13 @@ TRICK:  select all text in this file, 'Ctrl-A', then use 'Alt-Shift-f' to format
         <!--  I normally put header and footer outside of 'main', but in this
 		case when I'm centering it all, placing inside 'main' makes sense
 		-->
-        <header>
-            <h1>Ryne Dalrymple</h1>
-        </header>
-        <hr>
-        <img src="Ryne Dalrymple.jpg" alt="Ryne Dalrymple photo" style="float:right;">
+        <section class='Me'>
+            <header>
+                <h1>Ryne Dalrymple</h1>
+            </header>
+            <hr>
+            <img src="Ryne Dalrymple.jpg" alt="Ryne Dalrymple photo">
+        </section>
 
         <!-- (Project2)When repeating your sections,  create a class for each one and style each section through that class -->
         <!-- <section class='res-section'>
@@ -103,190 +72,207 @@ TRICK:  select all text in this file, 'Ctrl-A', then use 'Alt-Shift-f' to format
 			</ol>
 		</section> -->
 
-        <h2>Personal Info</h2>
-        <ul>
-            <li><b>Major:</b> Computer Science</li>
-            <li><b>High School:</b> Summit Academy, Bluffdale, Utah. 2015</li>
-            <li><b>Current year at UVU:</b> Junior</li>
-            <li><b>Favorite ice cream flavor:</b> Coffee</li>
-        </ul>
+        <section class='Personal'>
+            <h2>Personal Info</h2>
+            <ul>
+                <li><b>Major:</b> Computer Science</li>
+                <li><b>High School:</b> Summit Academy, Bluffdale, Utah. 2015</li>
+                <li><b>Current year at UVU:</b> Junior</li>
+                <li><b>Favorite ice cream flavor:</b> Coffee</li>
+            </ul>
+        </section>
 
-        <h2>My Five Favorite Books</h2>
-        <ol>
-            <li><i>Harry Potter</i>, <a href="https://www.jkrowling.com/" target="_blank">J.K. Rowling</a></li>
-            <li><i>Among the Hidden</i>, <a href="https://haddixbooks.com/" target="_blank">Margaret Peterson Haddix</a>
-            </li>
-            <li><i>Fablehaven</i>, <a href="http://brandonmull.com/" target="_blank">Brandon Mull</a></li>
-            <li><i>Dragon Slayers' Academy</i>, <a href="https://www.katemcmullan.com/" target="_blank">Kate
-                    McMullan</a>
-            </li>
-            <li><i>Artemis Fowl</i>, <a href="https://www.eoincolfer.com/" target="_blank">Eoin Colfer</a></li>
-        </ol>
+        <section class='Books'>
+            <h2>My Five Favorite Books</h2>
+            <ol>
+                <li><i>Harry Potter</i>, <a href="https://www.jkrowling.com/" target="_blank">J.K. Rowling</a></li>
+                <li><i>Among the Hidden</i>, <a href="https://haddixbooks.com/" target="_blank">Margaret Peterson
+                        Haddix</a>
+                </li>
+                <li><i>Fablehaven</i>, <a href="http://brandonmull.com/" target="_blank">Brandon Mull</a></li>
+                <li><i>Dragon Slayers' Academy</i>, <a href="https://www.katemcmullan.com/" target="_blank">Kate
+                        McMullan</a>
+                </li>
+                <li><i>Artemis Fowl</i>, <a href="https://www.eoincolfer.com/" target="_blank">Eoin Colfer</a></li>
+            </ol>
+        </section>
 
-        <h2>Just Another Day At Work</h2>
+        <section class='Poem'>
+            <h2>Just Another Day At Work</h2>
 
-        <p>Long days at work from start to end:</p>
+            <p>Long days at work from start to end:</p>
 
-        <p style="text-align: center;"><i>Waking up at 2 <br> Eating breakfast, lunch by 10 <br> Leaving work by
-                2</i><br>
-        </p>
+            <p style="text-align: center;"><i>Waking up at 2 <br> Eating breakfast, lunch by 10 <br> Leaving work by
+                    2</i><br>
+            </p>
+        </section>
 
-        <h2>My Personal Interests</h2>
+        <section class='Interests'>
+            <h2>My Personal Interests</h2>
 
-        <p>I've always been interested in Video Games. Ever since I was 5 years old I've been playing on PC, Nintendo
-            64,<br>
-            Super Nintendo, PS2, and all the newer ones going up to present. With friends, video games can be from
-            casual<br> to competitive.
-            Playing Video Games really helped me become more social with school and sports. In my<br> whole life I
-            probably
-            won't ever give up on video games.
-        </p>
+            <p>I've always been interested in Video Games. Ever since I was 5 years old I've been playing on PC,
+                Nintendo
+                64,<br>
+                Super Nintendo, PS2, and all the newer ones going up to present. With friends, video games can be from
+                casual<br> to competitive.
+                Playing Video Games really helped me become more social with school and sports. In my<br> whole life I
+                probably
+                won't ever give up on video games.
+            </p>
 
-        <p>Sports have always been interesting to me my whole life. It first started with baseball when I was
-            younger<br>
-            when I watched the Chicago Cubs on WGN. I was named after a hall of fame baseball player, Ryne<br> Sandberg
-            off the Chicago Cubs. There isn't a sport that I don't like. Football then basketball would<br> be my number
-            2
-            and number 3. It's nice to have sports in different seasons, so I have something<br> to look forward every
-            few months in the year.
-        </p>
+            <p>Sports have always been interesting to me my whole life. It first started with baseball when I was
+                younger<br>
+                when I watched the Chicago Cubs on WGN. I was named after a hall of fame baseball player, Ryne<br>
+                Sandberg
+                off the Chicago Cubs. There isn't a sport that I don't like. Football then basketball would<br> be my
+                number
+                2
+                and number 3. It's nice to have sports in different seasons, so I have something<br> to look forward
+                every
+                few months in the year.
+            </p>
 
-        <p>Another hobby of mine is watching Youtube. I've watch a lot of video ever since it first came out in<br>
-            2005. This is one thing my girlfriend and I like to watch other than other TV shows on Netflix, Hulu,<br>
-            and etc. Youtube has come a long way with the good and the bad of course with the Youtubers.<br> If there is
-            nothing on TV
-            that I think is good to watch at the time, I<br> can always know there are videos I can watch on
-            Youtube.<br>
-        </p>
+            <p>Another hobby of mine is watching Youtube. I've watch a lot of video ever since it first came out in<br>
+                2005. This is one thing my girlfriend and I like to watch other than other TV shows on Netflix,
+                Hulu,<br>
+                and etc. Youtube has come a long way with the good and the bad of course with the Youtubers.<br> If
+                there is
+                nothing on TV
+                that I think is good to watch at the time, I<br> can always know there are videos I can watch on
+                Youtube.<br>
+            </p>
+        </section>
 
-        <h2>Class Schedule</h2>
+        <section class='Schedule'>
+            <h2>Class Schedule</h2>
 
-        <table>
-            <tr>
-                <th></th>
-                <th>Monday</th>
-                <th>Tuesday</th>
-                <th>Wednesday</th>
-                <th>Thursday</th>
-                <th>Friday</th>
-            </tr>
-            <tr>
-                <td>3:00</td>
-                <td colspan="5" rowspan="23" style="background-color: blue;">Work</td>
-            </tr>
-            <tr>
-                <td>3:30</td>
-            </tr>
-            <tr>
-                <td>4:00</td>
-            </tr>
-            <tr>
-                <td>4:30</td>
-            </tr>
-            <tr>
-                <td>5:00</td>
-            </tr>
-            <tr>
-                <td>5:30</td>
-            </tr>
-            <tr>
-                <td>6:00</td>
-            </tr>
-            <tr>
-                <td>6:30</td>
-            </tr>
-            <tr>
-                <td>7:00</td>
-            </tr>
-            <tr>
-                <td>7:30</td>
-            </tr>
-            <tr>
-                <td>8:00</td>
-            </tr>
-            <tr>
-                <td>8:30</td>
-            </tr>
-            <tr>
-                <td>9:00</td>
-            </tr>
-            <tr>
-                <td>9:30</td>
-            </tr>
-            <tr>
-                <td>10:00</td>
-            </tr>
-            <tr>
-                <td>10:30</td>
-            </tr>
-            <tr>
-                <td>11:00</td>
-            </tr>
-            <tr>
-                <td>11:30</td>
-            </tr>
-            <tr>
-                <td>12:00</td>
-            </tr>
-            <tr>
-                <td>12:30</td>
-            </tr>
-            <tr>
-                <td>1:00</td>
-            </tr>
-            <tr>
-                <td>1:30</td>
-            </tr>
-            <tr>
-                <td>2:00</td>
-            </tr>
-            <tr>
-                <td>2:30</td>
-                <td colspan="5" rowspan="2" style="background-color: chocolate;">Home</td>
-            </tr>
-            <tr>
-                <td>3:00</td>
-            </tr>
-            <tr>
-                <td>3:30</td>
-                <td style="background-color: crimson;">Commute</td>
-                <td rowspan="9" style="background-color: darkgoldenrod;">CS-2550</td>
-                <td style="background-color: crimson;">Commute</td>
-                <td rowspan="2" style="background-color: chocolate;">Home</td>
-                <td rowspan="9" style="background-color: darkgreen;">COMM-2110</td>
-            </tr>
-            <tr>
-                <td>4:00</td>
-                <td rowspan="4" style="background-color: darkmagenta;">CS-2600</td>
-                <td rowspan="4" style="background-color: darkmagenta;">CS-2600</td>
-            </tr>
-            <tr>
-                <td>4:30</td>
-                <td style="background-color: crimson;">Commute</td>
-            </tr>
-            <tr>
-                <td>5:00</td>
-                <td rowspan="6" style="background-color: cyan;">PHIL-2050</td>
+            <table>
+                <tr>
+                    <th></th>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                </tr>
+                <tr>
+                    <td>3:00</td>
+                    <td colspan="5" rowspan="23" style="background-color: blue;">Work</td>
+                </tr>
+                <tr>
+                    <td>3:30</td>
+                </tr>
+                <tr>
+                    <td>4:00</td>
+                </tr>
+                <tr>
+                    <td>4:30</td>
+                </tr>
+                <tr>
+                    <td>5:00</td>
+                </tr>
+                <tr>
+                    <td>5:30</td>
+                </tr>
+                <tr>
+                    <td>6:00</td>
+                </tr>
+                <tr>
+                    <td>6:30</td>
+                </tr>
+                <tr>
+                    <td>7:00</td>
+                </tr>
+                <tr>
+                    <td>7:30</td>
+                </tr>
+                <tr>
+                    <td>8:00</td>
+                </tr>
+                <tr>
+                    <td>8:30</td>
+                </tr>
+                <tr>
+                    <td>9:00</td>
+                </tr>
+                <tr>
+                    <td>9:30</td>
+                </tr>
+                <tr>
+                    <td>10:00</td>
+                </tr>
+                <tr>
+                    <td>10:30</td>
+                </tr>
+                <tr>
+                    <td>11:00</td>
+                </tr>
+                <tr>
+                    <td>11:30</td>
+                </tr>
+                <tr>
+                    <td>12:00</td>
+                </tr>
+                <tr>
+                    <td>12:30</td>
+                </tr>
+                <tr>
+                    <td>1:00</td>
+                </tr>
+                <tr>
+                    <td>1:30</td>
+                </tr>
+                <tr>
+                    <td>2:00</td>
+                </tr>
+                <tr>
+                    <td>2:30</td>
+                    <td colspan="5" rowspan="2" style="background-color: chocolate;">Home</td>
+                </tr>
+                <tr>
+                    <td>3:00</td>
+                </tr>
+                <tr>
+                    <td>3:30</td>
+                    <td style="background-color: crimson;">Commute</td>
+                    <td rowspan="9" style="background-color: darkgoldenrod;">CS-2550</td>
+                    <td style="background-color: crimson;">Commute</td>
+                    <td rowspan="2" style="background-color: chocolate;">Home</td>
+                    <td rowspan="9" style="background-color: darkgreen;">COMM-2110</td>
+                </tr>
+                <tr>
+                    <td>4:00</td>
+                    <td rowspan="4" style="background-color: darkmagenta;">CS-2600</td>
+                    <td rowspan="4" style="background-color: darkmagenta;">CS-2600</td>
+                </tr>
+                <tr>
+                    <td>4:30</td>
+                    <td style="background-color: crimson;">Commute</td>
+                </tr>
+                <tr>
+                    <td>5:00</td>
+                    <td rowspan="6" style="background-color: cyan;">PHIL-2050</td>
 
-            </tr>
-            <tr>
-                <td>5:30</td>
-            </tr>
-            <tr>
-                <td>6:00</td>
-                <td rowspan="4" style="background-color: chocolate;">Home</td>
-                <td rowspan="4" style="background-color: chocolate;">Home</td>
-            </tr>
-            <tr>
-                <td>6:30</td>
-            </tr>
-            <tr>
-                <td>7:00</td>
-            </tr>
-            <tr>
-                <td>7:30</td>
-            </tr>
-        </table>
+                </tr>
+                <tr>
+                    <td>5:30</td>
+                </tr>
+                <tr>
+                    <td>6:00</td>
+                    <td rowspan="4" style="background-color: chocolate;">Home</td>
+                    <td rowspan="4" style="background-color: chocolate;">Home</td>
+                </tr>
+                <tr>
+                    <td>6:30</td>
+                </tr>
+                <tr>
+                    <td>7:00</td>
+                </tr>
+                <tr>
+                    <td>7:30</td>
+                </tr>
+            </table>
+        </section>
         <!-- <footer>
 			<h1>Here is my footer</h1>
 		</footer> -->
