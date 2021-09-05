@@ -1,3 +1,29 @@
+.all-sections {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12pt;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+body {
+    margin: 15px;
+}
+
+img {
+    float: right;
+}
+
+p {
+    text-indent: 0%;
+    margin-top: 75%;
+}
+
 table,
 th,
 td {
@@ -12,24 +38,3 @@ th,
 td {
     padding: 3px;
 }
-
-header {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-img {
-    float: right;
-}
-
-.Personl {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.Books {
-    text-decoration: none;
-}
-
-.Books:hover {
-    text-decoration: underline;
-}
-
