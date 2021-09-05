@@ -29,6 +29,8 @@ header {
 img {
     float: right;
     align-items: center;
+    padding: 2px white;
+    box-shadow: 10px 10px 8px 10px#888888;
 }
 
 .name {
