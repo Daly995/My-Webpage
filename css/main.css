@@ -13,12 +13,11 @@ td {
     padding: 3px;
 }
 
-.Me {
+header {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    overflow: auto;
 }
 
-.img {
+img {
     float: right;
 }
 
