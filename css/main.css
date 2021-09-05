@@ -15,6 +15,9 @@ td {
 
 .Me {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img.Me {
     float: right;
 }
 
