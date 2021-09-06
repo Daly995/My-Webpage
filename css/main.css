@@ -18,6 +18,8 @@ body {
 .days {
     background-color: darkslategray;
     width: 120px;
+    text-align: left;
+    padding: 3px;
 }
 
 @font-face {
@@ -62,44 +64,43 @@ td {
     border: 1px solid black;
 }
 
-table {
-    border-spacing: 3px;
-}
-
-th,
-td {
-    padding: 3px;
-}
-
 .work {
     background-color: blue;
+    padding: 3px;
 }
 
 .home {
     background-color: orange;
+    padding: 3px;
 }
 
 .commute {
     background-color: crimson;
+    padding: 3px;
 }
 
 .cs2550 {
     background-color: pink;
+    padding: 3px;
 }
 
 .comm {
     background-color: darkgreen;
+    padding: 3px;
 }
 
 .cs2600 {
     background-color: darkmagenta;
+    padding: 3px;
 }
 
 .phil {
     background-color: cyan;
+    padding: 3px;
 }
 
 .features {
     table-layout: fixed;
     width: 600px 900px;
+    /* border-spacing: 3px; */
 }
