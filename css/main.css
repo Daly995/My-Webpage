@@ -118,7 +118,7 @@ p {
 table,
 th,
 td {
-    border: 2px solid lightgreen;
+    border: 2px solid lightskyblue;
 }
 
 tr:nth-child(even) {
@@ -130,5 +130,5 @@ tr:nth-child(odd) {
 }
 
 tr {
-    border-bottom: 2px solid lightgreen;
+    border-bottom: 2px solid lightskyblue;
 }
