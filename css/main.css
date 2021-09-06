@@ -27,11 +27,14 @@ body {
     src: url(Anton-Regular.ttf);
     font-weight: bold;
     font-size: 30pt;
-    border-bottom: 3px solid black;
 }
 
 header {
     font-family: headerFont;
+}
+
+header::after {
+    border-bottom: 3px solid black;
 }
 
 h2 {
