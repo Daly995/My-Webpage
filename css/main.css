@@ -100,3 +100,7 @@ p {
     border-spacing: 0;
     border-bottom: 1px lightgreen;
 }
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
