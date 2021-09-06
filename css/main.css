@@ -73,3 +73,27 @@ td {
 .work {
     background-color: blue;
 }
+
+.home {
+    background-color: orange;
+}
+
+.commute {
+    background-color: crimson;
+}
+
+.cs2550 {
+    background-color: pink;
+}
+
+.comm {
+    background-color: darkgreen;
+}
+
+.cs2600 {
+    background-color: darkmagenta;
+}
+
+.phil {
+    background-color: cyan;
+}
