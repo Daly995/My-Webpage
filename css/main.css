@@ -58,12 +58,6 @@ p {
     text-align: center;
 }
 
-table,
-th,
-td {
-    border: 1px solid white;
-}
-
 .work {
     background-color: blue;
     padding: 3px;
