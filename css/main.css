@@ -15,6 +15,10 @@ body {
     background-image: url("pexels-pixabay-531880.jpg");
 }
 
+.days {
+    background-color: gray;
+}
+
 @font-face {
     font-family: headerFont;
     src: url(Anton-Regular.ttf);
