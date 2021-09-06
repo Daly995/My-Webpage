@@ -98,7 +98,6 @@ p {
     width: 600px 900px;
     border-collapse: collapse;
     border-spacing: 0;
-    border-bottom: 1px solid lightgreen;
 }
 
 tr:nth-child(even) {
@@ -107,4 +106,8 @@ tr:nth-child(even) {
 
 tr:nth-child(odd) {
     background-color: gray;
+}
+
+tr {
+    border-bottom: 1px solid lightgreen;
 }
