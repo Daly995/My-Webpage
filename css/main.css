@@ -26,6 +26,11 @@ header {
     font-family: headerFont;
 }
 
+h2 {
+    margin-top: 20px;
+    margin-bottom: 9px;
+}
+
 img {
     float: right;
     align-items: center;
