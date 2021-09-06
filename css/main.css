@@ -27,7 +27,7 @@ body {
     src: url(Anton-Regular.ttf);
     font-weight: bold;
     font-size: 30pt;
-    text-decoration: underline;
+    border-bottom: 3px solid black;
 }
 
 header {
