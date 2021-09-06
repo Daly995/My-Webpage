@@ -47,6 +47,10 @@ p {
     margin-top: 12pt;
 }
 
+.poem {
+    text-align: center;
+}
+
 table,
 th,
 td {
