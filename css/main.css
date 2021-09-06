@@ -59,36 +59,50 @@ p {
 }
 
 .work {
+    text-align: center;
+    vertical-align: center;
     background-color: blue;
     padding: 3px;
 }
 
 .home {
+    text-align: center;
+    vertical-align: center;
     background-color: orange;
     padding: 3px;
 }
 
 .commute {
+    text-align: center;
+    vertical-align: center;
     background-color: crimson;
     padding: 3px;
 }
 
 .cs2550 {
+    text-align: center;
+    vertical-align: center;
     background-color: pink;
     padding: 3px;
 }
 
 .comm {
+    text-align: center;
+    vertical-align: center;
     background-color: darkgreen;
     padding: 3px;
 }
 
 .cs2600 {
+    text-align: center;
+    vertical-align: center;
     background-color: darkmagenta;
     padding: 3px;
 }
 
 .phil {
+    text-align: center;
+    vertical-align: center;
     background-color: cyan;
     padding: 3px;
 }
@@ -99,6 +113,12 @@ p {
     border-collapse: collapse;
     border-spacing: 0;
     border: 5px solid black;
+}
+
+table,
+th,
+td {
+    border: 2px solid lightgreen;
 }
 
 tr:nth-child(even) {
