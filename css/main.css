@@ -17,6 +17,7 @@ body {
 
 .days {
     background-color: darkslategray;
+    width: 120px;
 }
 
 @font-face {
@@ -53,6 +54,21 @@ p {
 
 .poem {
     text-align: center;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-spacing: 3px;
+}
+
+th,
+td {
+    padding: 3px;
 }
 
 .work {
