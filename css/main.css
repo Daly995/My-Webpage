@@ -106,5 +106,5 @@ tr:nth-child(even) {
 }
 
 tr:nth-child(odd) {
-    background-color: black;
+    background-color: gray;
 }
