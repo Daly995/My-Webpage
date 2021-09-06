@@ -33,8 +33,9 @@ header {
     font-family: headerFont;
 }
 
-header::after {
-    border-bottom: 3px solid black;
+hr {
+    background-color: black;
+    border-width: 3px;
 }
 
 h2 {
