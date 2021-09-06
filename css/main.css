@@ -130,5 +130,6 @@ tr:nth-child(odd) {
 }
 
 tr {
+    text-align: center;
     border-bottom: 2px solid lightskyblue;
 }
