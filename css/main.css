@@ -55,21 +55,6 @@ p {
     text-align: center;
 }
 
-table,
-th,
-td {
-    border: 1px solid black;
-}
-
-table {
-    border-spacing: 3px;
-}
-
-th,
-td {
-    padding: 3px;
-}
-
 .work {
     background-color: blue;
 }
@@ -96,4 +81,9 @@ td {
 
 .phil {
     background-color: cyan;
+}
+
+.features {
+    table-layout: fixed;
+    width: 600px 900px;
 }
