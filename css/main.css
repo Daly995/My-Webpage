@@ -110,5 +110,5 @@ tr:nth-child(odd) {
 }
 
 tr {
-    border-bottom: 1px solid lightgreen;
+    border-bottom: 5px solid lightgreen;
 }
