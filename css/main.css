@@ -98,7 +98,7 @@ p {
     width: 600px 900px;
     border-collapse: collapse;
     border-spacing: 0;
-    border: 1px solid black;
+    border: 5px solid black;
 }
 
 tr:nth-child(even) {
