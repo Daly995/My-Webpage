@@ -96,5 +96,7 @@ p {
 .features {
     table-layout: fixed;
     width: 600px 900px;
-    /* border-spacing: 3px; */
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-bottom: 1px lightgreen;
 }
