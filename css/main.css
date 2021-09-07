@@ -136,7 +136,7 @@ tr {
 
 .center {
     width: 60%;
-    height: 200px;
+    height: auto;
     margin: 0 auto;
     background-color: #FFA500;
 }
