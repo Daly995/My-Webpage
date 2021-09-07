@@ -33,13 +33,6 @@ header {
     font-family: headerFont;
 }
 
-hr {
-    padding: 0;
-    border-style: solid;
-    border-color: black;
-    border-width: 2px;
-}
-
 h2 {
     margin-top: 20px;
     margin-bottom: 9px;
@@ -54,6 +47,7 @@ img {
 
 .name {
     background-image: linear-gradient(lightskyblue, lightyellow);
+    text-decoration: underline;
 }
 
 p {
