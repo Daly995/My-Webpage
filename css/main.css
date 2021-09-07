@@ -1,5 +1,5 @@
 .all-sections {
-    margin: 0px 15px 0px 15px;
+    margin: 0px 15px 30px 15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 12pt;
 }
@@ -53,7 +53,7 @@ img {
 }
 
 p {
-    text-indent: 2pt;
+    text-indent: auto;
     margin-top: 12pt;
 }
 
