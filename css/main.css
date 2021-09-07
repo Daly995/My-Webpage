@@ -134,6 +134,6 @@ tr {
     border-bottom: 2px solid lightskyblue;
 }
 
-div {
+.center {
     margin: 0 auto;
 }
