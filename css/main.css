@@ -23,7 +23,6 @@ body {
 }
 
 @font-face {
-    padding: 10px;
     font-family: headerFont;
     src: url(Anton-Regular.ttf);
     font-weight: bold;
@@ -47,6 +46,7 @@ img {
 }
 
 .name {
+    padding: 10px;
     background-image: linear-gradient(lightskyblue, lightyellow);
 }
 
