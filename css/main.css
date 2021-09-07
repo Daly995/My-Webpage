@@ -52,8 +52,11 @@ img {
     background-image: linear-gradient(lightskyblue, lightyellow);
 }
 
+.paragraph {
+    text-indent: inherit;
+}
+
 p {
-    text-indent: 2pt;
     margin-top: 12pt;
 }
 
