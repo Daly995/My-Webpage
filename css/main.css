@@ -47,6 +47,9 @@ img {
 
 .name {
     background-image: linear-gradient(lightskyblue, lightyellow);
+}
+
+.name::after {
     text-decoration: underline;
 }
 
