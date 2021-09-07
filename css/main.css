@@ -49,10 +49,6 @@ img {
     background-image: linear-gradient(lightskyblue, lightyellow);
 }
 
-::after .name {
-    text-decoration: underline;
-}
-
 p {
     text-indent: 2pt;
     margin-top: 12pt;
@@ -136,4 +132,8 @@ tr:nth-child(odd) {
 tr {
     text-align: center;
     border-bottom: 2px solid lightskyblue;
+}
+
+div {
+    margin: 0 auto;
 }
