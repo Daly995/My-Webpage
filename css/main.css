@@ -34,10 +34,10 @@ header {
 }
 
 hr {
-    margin: 0;
+    padding: 0;
     border-style: solid;
     border-color: black;
-    border-width: 3px;
+    border-width: 2px;
 }
 
 h2 {
