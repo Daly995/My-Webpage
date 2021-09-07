@@ -141,6 +141,7 @@ tr {
 
 .center {
     width: 60%;
+    overflow: auto;
     height: auto;
     margin: 0 auto;
     background-color: tan;
