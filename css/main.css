@@ -23,6 +23,7 @@ body {
 }
 
 @font-face {
+    padding: 10px;
     font-family: headerFont;
     src: url(Anton-Regular.ttf);
     font-weight: bold;
