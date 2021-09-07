@@ -1,5 +1,5 @@
 .all-sections {
-    padding: 0px 20px 0px 0px;
+    padding: 0px 0px 0px 15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 12pt;
 }
@@ -20,7 +20,7 @@ body {
     background-color: darkslategray;
     width: 120px;
     text-align: left;
-    padding: 0px 3px 0px 0px;
+    padding: 0px 0px 0px 3px;
 }
 
 @font-face {
@@ -48,7 +48,7 @@ img {
 }
 
 .name {
-    padding: 0px 20px 0px 0px;
+    padding: 0px 0px 0px 15px;
     background-image: linear-gradient(lightskyblue, lightyellow);
 }
 
@@ -58,7 +58,7 @@ p {
 }
 
 .poem {
-    margin: 0px 30px 0px 0px;
+    margin: 0px 0px 0px 30px;
     text-align: left;
 }
 
