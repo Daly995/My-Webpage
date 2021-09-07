@@ -40,9 +40,8 @@ h2 {
 }
 
 img {
-    padding-right: 15px;
     float: right;
-    border: 10px solid white;
+    border: 6px solid white;
     -webkit-box-shadow: 0 0 10px#888888;
     box-shadow: 0 0 10px#888888;
 }
