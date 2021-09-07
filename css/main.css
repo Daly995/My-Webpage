@@ -1,5 +1,5 @@
 .all-sections {
-    padding: 0px 0px 30px 15px;
+    padding: 0px 0px 0px 15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 12pt;
 }
@@ -112,7 +112,7 @@ p {
 }
 
 .features {
-    margin: 0px 0px 100px 0px;
+    margin: 0px 100px 0px 0px;
     table-layout: fixed;
     width: 600px 900px;
     border-collapse: collapse;
@@ -141,7 +141,7 @@ tr {
 
 .center {
     width: 60%;
-    height: auto;
+    height: 1000px;
     margin: 0 auto;
     background-color: tan;
 }
