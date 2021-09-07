@@ -112,7 +112,7 @@ p {
 }
 
 .features {
-    margin: 0px 100px 0px 0px;
+    margin: 0px 0px 0px 100px;
     table-layout: fixed;
     width: 600px 900px;
     border-collapse: collapse;
