@@ -41,7 +41,7 @@ h2 {
 
 img {
     float: right;
-    border: 6px solid white;
+    border: 10px solid white;
     -webkit-box-shadow: 0 0 10px#888888;
     box-shadow: 0 0 10px#888888;
 }
