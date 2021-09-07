@@ -49,7 +49,7 @@ img {
     background-image: linear-gradient(lightskyblue, lightyellow);
 }
 
-.name::after {
+::after .name {
     text-decoration: underline;
 }
 
