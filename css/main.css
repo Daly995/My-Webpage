@@ -126,7 +126,8 @@ p {
 
 table,
 th,
-td {
+td,
+tr {
     border: 2px solid black;
 }
 
