@@ -55,6 +55,7 @@ img {
 }
 
 .name {
+    text-align: center;
     padding: 0px 0px 0px 15px;
     background-image: linear-gradient(lightskyblue, lightyellow);
 }
