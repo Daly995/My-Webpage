@@ -126,8 +126,7 @@ p {
 
 table,
 th,
-td,
-tr {
+td {
     border: 2px solid black;
 }
 
@@ -141,7 +140,7 @@ tr:nth-child(odd) {
 
 tr {
     text-align: center;
-    border-bottom: 2px solid black;
+    border: 2px solid black;
 }
 
 .center {
