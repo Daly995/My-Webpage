@@ -13,14 +13,14 @@ a:hover {
 }
 
 body {
-    background-image: url("pexels-pixabay-531880.jpg");
+    background-repeat: url("pexels-pixabay-531880.jpg");
     background-size: cover;
 }
 
 .days {
     background-color: darkslategray;
     width: 120px;
-    text-align: left;
+    text-align: center;
     padding: 0px 0px 0px 3px;
 }
 
@@ -68,7 +68,7 @@ p {
 
 .poem {
     margin: 0px 0px 0px 35px;
-    text-align: left;
+    text-align: center;
 }
 
 .work {
