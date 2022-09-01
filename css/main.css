@@ -31,6 +31,11 @@ body {
     font-size: 30pt;
 }
 
+main {
+    margin: 0 auto;
+    opacity: .75;
+}
+
 header {
     font-family: headerFont;
 }
