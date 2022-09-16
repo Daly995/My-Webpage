@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <!-- EXAMPLE CODE HEADER/DISCLAIMER
  
-Project:  Project2-'About Me' CSS
+Project: Project 2 -'About Me' CSS
 Name: Ryne Dalrymple
-Submitted: 9/6/21
+Submitted: 9/16/22
  
 I declare that the following source code was written by me, or provided
 by the instructor for this project. I understand that copying source
@@ -37,7 +37,7 @@ TRICK:  select all text in this file, 'Ctrl-A', then use 'Alt-Shift-f' to format
     <title>About Ryne Dalrymple</title>
     <!-- place inline styles here-Project 2 -->
     <!-- Or, include your styles in a separate css file as follows (project 2): -->
-    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href=".css/main.css" />
 </head>
 <div class='center'>
 
@@ -72,9 +72,12 @@ TRICK:  select all text in this file, 'Ctrl-A', then use 'Alt-Shift-f' to format
             <section class='all-sections'>
                 <h2>Personal Info:</h2>
                 <ul>
-                    <li><b>Major:</b> Computer Science</li>
+                    <li><b>Completed Major:</b> Associate in Science in University Studies</li>
+                    <li><b>Major:</b> Bachelor of Applied Science in Software Development</li>
+                    <li><b>Second Major:</b> Bachelor of Science in Technology Management</li>
+                    <li><b>Minor:</b> Computer Science</li>
                     <li><b>High School:</b> Summit Academy, Bluffdale, Utah. 2015</li>
-                    <li><b>Current year at UVU:</b> Junior</li>
+                    <li><b>Current year at UVU:</b> Senior</li>
                     <li><b>Favorite ice cream flavor:</b> Coffee</li>
                 </ul>
             </section>
@@ -84,11 +87,11 @@ TRICK:  select all text in this file, 'Ctrl-A', then use 'Alt-Shift-f' to format
                 <ol>
                     <li><i>Harry Potter</i>, <a href="https://www.jkrowling.com/" target="_blank">J.K. Rowling</a></li>
                     <li><i>Among the Hidden</i>, <a href="https://haddixbooks.com/" target="_blank">Margaret Peterson
-                        Haddix</a>
+                            Haddix</a>
                     </li>
                     <li><i>Fablehaven</i>, <a href="http://brandonmull.com/" target="_blank">Brandon Mull</a></li>
                     <li><i>Dragon Slayers' Academy</i>, <a href="https://www.katemcmullan.com/" target="_blank">Kate
-                        McMullan</a>
+                            McMullan</a>
                     </li>
                     <li><i>Artemis Fowl</i>, <a href="https://www.eoincolfer.com/" target="_blank">Eoin Colfer</a></li>
                 </ol>
@@ -130,10 +133,11 @@ TRICK:  select all text in this file, 'Ctrl-A', then use 'Alt-Shift-f' to format
                         <th class='days'>Wednesday</th>
                         <th class='days'>Thursday</th>
                         <th class='days'>Friday</th>
+                        <th class='days'>Saturday</th>
                     </tr>
                     <tr>
                         <td>3:00</td>
-                        <td class='work' colspan=" 5 " rowspan="23 ">Work</td>
+                        <td class='work' colspan="6" rowspan="23">Work</td>
                     </tr>
                     <tr>
                         <td>3:30</td>
@@ -203,40 +207,35 @@ TRICK:  select all text in this file, 'Ctrl-A', then use 'Alt-Shift-f' to format
                     </tr>
                     <tr>
                         <td>2:30</td>
-                        <td class='home' colspan="5 " rowspan="2 ">Home</td>
+                        <td class='home' colspan="6" rowspan="5">Home</td>
                     </tr>
                     <tr>
                         <td>3:00</td>
                     </tr>
                     <tr>
                         <td>3:30</td>
-                        <td class='commute'>Commute</td>
-                        <td class='cs2550' rowspan="9 ">CS-2550</td>
-                        <td class='commute'>Commute</td>
-                        <td class='home' rowspan="2 ">Home</td>
-                        <td class='comm' rowspan="9 ">COMM-2110</td>
                     </tr>
                     <tr>
                         <td>4:00</td>
-                        <td class='cs2600' rowspan="4 ">CS-2600</td>
-                        <td class='cs2600' rowspan="4 ">CS-2600</td>
                     </tr>
                     <tr>
                         <td>4:30</td>
-                        <td class='commute'>Commute</td>
                     </tr>
                     <tr>
                         <td>5:00</td>
-                        <td class='phil' rowspan="6 ">PHIL-2050</td>
-
+                        <td class='commute' colspan="4">Commute</td>
+                        <td class='cs3060' rowspan="5">CS-3060</td>
+                        <td class='acc3000' rowspan="5">ACC-3000</td>
                     </tr>
                     <tr>
                         <td>5:30</td>
+                        <td class='cs2550' rowspan="4">CS-2550</td>
+                        <td class='cs2600' rowspan="4">CS-2600</td>
+                        <td class='cs2550' rowspan="4">CS-2550</td>
+                        <td class='cs2600' rowspan="4">CS-2600</td>
                     </tr>
                     <tr>
                         <td>6:00</td>
-                        <td class='home' rowspan="4 ">Home</td>
-                        <td class='home' rowspan="4 ">Home</td>
                     </tr>
                     <tr>
                         <td>6:30</td>
@@ -246,6 +245,7 @@ TRICK:  select all text in this file, 'Ctrl-A', then use 'Alt-Shift-f' to format
                     </tr>
                     <tr>
                         <td>7:30</td>
+                        <td class='home' colspan="6">Home</td>
                     </tr>
                 </table>
             </section>
